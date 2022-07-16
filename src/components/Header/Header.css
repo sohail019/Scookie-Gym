@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10em;
+    height: 3em;
+}
+
+.header-menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: white;
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.header>button{
+    display: flex;
+    right: 0;
+    background-color: white;
+    color: black;
+    border: none;
+    width: fit-content;
+    padding: 5px 20px;
+}
